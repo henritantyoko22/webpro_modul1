@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>1301154252</title>
+</head>
+
+<body>
+    <h1> Jurnal Mdul 1</h1>
+    <form action="index2.html" method="POST">
+        <table border="0" width="350">
+            <tr>
+                <td>Nama Lengkap</td>
+                <td>:</td>
+                <td width="120"><input type="text" name="name_input" id="namelengkap_id" placeholder="Henri Tantyoko"
+                        readonly></td>
+            </tr>
+            <tr>
+                <td>Nama Panggilan</td>
+                <td>:</td>
+                <td width="120"><input type="text" name="namepanggilan_input" id="namepanggilan_id" placeholder="Henri Tantyoko"
+                        disabled></td>
+            </tr>
+            <tr>
+                <td>Username</td>
+                <td>:</td>
+                <td width="120"><input type="text" name="uname_input" id="uname_id" placeholder="Username" required></td>
+            </tr>
+            <tr>
+                <td>Email</td>
+                <td>:</td>
+                <td width="120"><input type="email" name="email_input" id="email_id" placeholder="Email" required></td>
+            </tr>
+            <tr>
+                <td>Password</td>
+                <td>:</td>
+                <td width="120"><input type="password" name="password_input" id="password_id" placeholder="Password"
+                        required></td>
+            </tr>
+            <tr>
+                <td>Jenis Kelamin</td>
+                <td>:</td>
+                <td><input type="radio" name="jk_input" id="radioB" value="Pria">Pria</input>
+                    <input type="radio" name="jk_input" id="radioB" value="Wanita">Wanita</input>
+                </td>
+
+            </tr>
+            <tr>
+                <td>Hobi</td>
+                <td>:</td>
+                <td><input type="checkbox" name="hobi_input" id="checkB_id" value="Makan">Makan</input> <br>
+                    <input type="checkbox" name="hobi_input" id="checkB_id" value="Belajar">Balajar</input> <br>
+                    <input type="checkbox" name="hobi_input" id="checkB_id" value="Tidur">Tidur</input> <br>
+                    <input type="checkbox" name="hobi_input" id="checkB_id" value="Coding">Coding</input> <br>
+
+                </td>
+
+            </tr>
+            <tr>
+                <td>Pendidikan Terakhir</td>
+                <td>:</td>
+                <td><select name="pt_input" id="pt_input">
+                        <option value="" selected>----Pilih----</option>
+                        <option value="SD">SD</option>
+                        <option value="SMP">SMP</option>
+                        <option value="SMA">SMA</option>
+                    </select>
+                </td>
+
+            </tr>
+            <tr>
+                <td>Jurusan</td>
+                <td>:</td>
+                <td> <select name="jurusan_input" size="4">
+                        <option value="MBTI">MBTI</option>
+                        <option value="Informatika">Informatika</option>
+                        <option value="Teknik Telekomunikasi">Teknik Telekomunikasi</option>
+                        <option value="MBTI">MBTI</option>
+                        <option value="Informatika">Informatika</option>
+                        <option value="Teknik Telekomunikasi">Teknik Telekomunikasi</option>
+                    </select>
+                </td>
+
+            </tr>
+
+            <tr>
+                <td>Upload Foto</td>
+                <td>:</td>
+                <td><input type="file" name="Foto" id="foto_id">
+                </td>
+            </tr>
+
+            <tr>
+                <td>Alamat</td>
+                <td>:</td>
+                <td><textarea name="Alamat" id="Alamat_id" placeholder="Alamat" rows="5" cols="30" required></textarea>
+                </td>
+            </tr>
+
+        </table>
+        <input type="submit" name="submit" id="submit" value="submit">
+    </form>
+</body>
+
+</html>
